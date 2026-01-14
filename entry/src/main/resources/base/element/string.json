@@ -11,6 +11,26 @@
     {
       "name": "EntryAbility_label",
       "value": "label"
+    },
+    {
+      "name": "location_permission_reason",
+      "value": "用于照片位置信息"
+    },
+    {
+      "name": "reason_camera",
+      "value": "需要访问相机以拍摄照片和录制视频"
+    },
+    {
+      "name": "reason_microphone",
+      "value": "需要访问麦克风以录制视频声音"
+    },
+    {
+      "name": "reason_read_media",
+      "value": "需要访问媒体库以预览照片"
+    },
+    {
+      "name": "reason_write_media",
+      "value": "需要访问媒体库以保存拍摄的照片和视频"
     }
   ]
 }

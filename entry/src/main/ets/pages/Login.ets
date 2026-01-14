@@ -100,15 +100,4 @@ struct Index {
     .shadow({ radius: 28, offsetX: 0, offsetY: 2, color: "#60414040" })
     .backgroundColor('#F9A825')
   }
-
-  pageTransition() {
-    PageTransitionEnter({ type: RouteType.Pop, duration: 500, curve: Curve.Linear })
-      .onEnter((type: RouteType, progress: number) => {
-      })
-      .translate({ y: '20%' })
-    // 进场过程中会逐帧触发onEnter回调，入参为动效的归一化进度(0% -- 100%)
-    PageTransitionExit({ type: RouteType.Push, duration: 800, curve: Curve.Linear })
-      .onExit((type: RouteType, progress: number) => {
-      }).translate({ y: '20%' }) // 退场过程中会逐帧触发onExit回调，入参为动效的归一化进度(0% -- 100%)
-  }
 }
